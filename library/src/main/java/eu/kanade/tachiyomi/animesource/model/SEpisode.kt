@@ -12,6 +12,8 @@ interface SEpisode {
 
     var scanlator: String?
 
+    var summary: String?
+
     companion object {
         fun create(): SEpisode {
             throw RuntimeException("Stub!")
