@@ -14,6 +14,8 @@ interface SEpisode {
 
     var summary: String?
 
+    var preview_url: String?
+
     companion object {
         fun create(): SEpisode {
             throw RuntimeException("Stub!")
